@@ -15,8 +15,8 @@ import app from './app.vue'
 import VueLazyload from 'vue-lazyload'
 Vue.use(VueLazyload, {
 	preLoad: 1.3,
-	error: '../img/timg.jpg',
-	loading: '../img/timg.gif',
+	error: 'http://tc-html5dw-com.b0.upaiyun.com/090ea/090ea38bc74ea34f427ad229c544c348.jpg',
+	loading: 'http://tc-html5dw-com.b0.upaiyun.com/6b75b/6b75bd954c62fb9e547a81eb6892638f.gif',
 	attempt: 1,
 	listenEvents: ['scroll']
 })
